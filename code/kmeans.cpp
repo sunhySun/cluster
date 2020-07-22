@@ -211,7 +211,7 @@ public:
                 flag[t]++;
             }
             int ma=flag[0];
-            cout<<flag[0]<<" "<<flag[1]<<" "<<flag[2]<<endl;
+            //cout<<flag[0]<<" "<<flag[1]<<" "<<flag[2]<<endl;
             for(int i=1;i<k;i++)
             {
                 if(flag[i]>ma)
@@ -384,5 +384,6 @@ int main()
     input_iris(a,ans,n,m,k);
     kmeans K(k,n,m,a);
     cout<<"The accuracy is "<<K.get_accuracy(ans)<<endl;
-    cout<<"The accuracy is "<<K.get_accuracy_f(ans)<<endl;
+    system("pause");
+    return 0;
 }

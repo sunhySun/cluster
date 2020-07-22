@@ -598,5 +598,6 @@ int main()
     input_iris(a,ans,n,m,k);
     isodata K(n,m,k,a);
     cout<<"The accuracy is "<<K.get_accuracy(ans)<<endl;
+    system("pause");
     return 0;
 }
